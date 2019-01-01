@@ -3,8 +3,8 @@ import os
 import requests
 from datetime import datetime
 
-# Put your base58 or xpub address here
-address = "xpub6CUGRUonZSQ4TWtTMmzXdrXDtypWKiKrhko4egpiMZbpiaQL2jkwSB1icqYh2cfDfVxdx4df189oLKnC5fSwqPfgyP3hooxujYzAu3fDVmz"
+# Replace <addressHere> with your base58 or xpub address
+address = "<addressHere>"
 
 # Request blockchain.com API
 response = requests.get("https://blockchain.info/multiaddr?active=" + address)
